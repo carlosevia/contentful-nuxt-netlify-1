@@ -1,7 +1,7 @@
 <template>
   <main>
     <div class="container">
-      <h1 class="title">Pop Waves</h1>
+      <h1 class="title">Timothy is a n00b</h1>
       <section v-for="post in posts" :key="post.fields.slug">
         <div
           class="image"
