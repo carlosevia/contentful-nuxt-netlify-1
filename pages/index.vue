@@ -30,7 +30,7 @@ export default {
     }
   },
   head: {
-    title: "Paw Waves, Latest Posts"
+    title: "C'est la vie"
   }
 };
 </script>
