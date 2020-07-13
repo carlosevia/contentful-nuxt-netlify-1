@@ -1,4 +1,4 @@
-# Contentful Nuxt Example Blog
+# Contentful Nuxt Example Blogs
 
 > An example blog with Contentful CMS and Nuxt/Vue Deployed on Netlify
 
