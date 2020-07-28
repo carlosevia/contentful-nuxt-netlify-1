@@ -9,9 +9,6 @@ export default {};
 <style lang="scss" scoped>
 footer {
   background: white;
-  /* background: url(../assets/footer-bk.jpg) no-repeat center bottom, #112545; /*
-  background-size: 100% auto;
-  width: 100%;
-  height: 37vw;
+
 }
 </style>
