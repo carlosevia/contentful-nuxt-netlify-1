@@ -8,6 +8,7 @@ export default {};
 
 <style lang="scss" scoped>
 footer {
+  text-align: center;
   background: white;
 }
 </style>
