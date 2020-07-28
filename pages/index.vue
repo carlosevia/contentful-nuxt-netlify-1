@@ -71,6 +71,6 @@ section {
 // }
 
 .more {
-  color: #eee;
+  color: #000000;
 }
 </style>
