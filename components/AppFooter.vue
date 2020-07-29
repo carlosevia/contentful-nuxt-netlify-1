@@ -1,5 +1,5 @@
 <template>
-  <footer>Awesome</footer>
+  <footer>An awesome Virginia Tech production</footer>
 </template>
 
 <script>

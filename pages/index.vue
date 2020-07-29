@@ -2,6 +2,8 @@
   <main>
     <div class="container">
       <h1 class="title">Life is good... mostly</h1>
+      <p>Welcome to the experimental blog.</p>
+      <hr/>
       <section v-for="post in posts" :key="post.fields.slug">
         <div
           class="image"
