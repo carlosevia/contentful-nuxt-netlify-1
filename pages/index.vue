@@ -35,7 +35,7 @@ export default {
 <style lang="scss" scoped>
 section {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   grid-template-rows: 20px 20px 1fr;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
