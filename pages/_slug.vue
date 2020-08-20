@@ -4,12 +4,7 @@
       <nuxt-link exact to="/">⟵ Back to Home</nuxt-link>
     </p>
     <h1>{{ post.fields.title }}</h1>
-    <div
-      class="image"
-      :style="
-        `background: url(https:${post.fields.heroImage.fields.file.url}) center center no-repeat`
-      "
-    ></div>
+  
     <article v-html="$md.render(post.fields.body)"></article>
   </section>
 </template>
