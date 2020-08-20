@@ -2,10 +2,10 @@
   <main>
     <div class="container">
       <h1 class="title">A blog of reading responses</h1>
-      <h2>Welcome to the experimental blog.</h2>
+      <h2>Welcome to my blog for CMST 5814.</h2>
       <hr/>
       <section v-for="post in posts" :key="post.fields.slug">
-        
+
         <h2 class="title">
           <nuxt-link :to="post.fields.slug">{{ post.fields.title }}</nuxt-link>
         </h2>
@@ -35,7 +35,7 @@ export default {
 <style lang="scss" scoped>
 section {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 20px 20px 1fr;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
