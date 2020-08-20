@@ -1,16 +1,11 @@
 <template>
   <main>
     <div class="container">
-      <h1 class="title">Life is good... mostly</h1>
+      <h1 class="title">A blog of reading responses</h1>
       <h2>Welcome to the experimental blog.</h2>
       <hr/>
       <section v-for="post in posts" :key="post.fields.slug">
-        <div
-          class="image"
-          :style="
-            `background: url(https:${post.fields.heroImage.fields.file.url}) center center no-repeat`
-          "
-        ></div>
+        
         <h2 class="title">
           <nuxt-link :to="post.fields.slug">{{ post.fields.title }}</nuxt-link>
         </h2>
